@@ -1,0 +1,7 @@
+plugins {
+    id 'kotlin'
+}
+
+dependencies {
+    implementation "io.arrow-kt:arrow-core:$arrow_version"
+}

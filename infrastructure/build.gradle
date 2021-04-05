@@ -1,0 +1,12 @@
+plugins {
+    id 'kotlin'
+}
+
+dependencies {
+    implementation project(':core')
+
+    implementation 'com.squareup.retrofit2:retrofit:2.0.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.0'
+
+    implementation "org.koin:koin-android:$koinVersion"
+}
