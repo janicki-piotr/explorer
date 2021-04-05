@@ -17,4 +17,22 @@
         android:label="@string/menu_wallet"
         tools:layout="@layout/fragment_wallet_list" />
 
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="pl.redny.gw2explorer.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_keys"
+        android:name="pl.redny.gw2explorer.ui.keys.KeysFragment"
+        android:label="@string/menu_wallet"
+        tools:layout="@layout/fragment_keys" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="pl.redny.gw2explorer.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
 </navigation>
